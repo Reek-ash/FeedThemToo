@@ -1,0 +1,213 @@
+
+      body {
+        background-color: #f0f5f9;
+      }
+      /* CSS for the donation section */
+      section.heading-donation {
+        text-align: center;
+        background-color: #f0f5f9;
+        padding: 40px 0;
+      }
+
+      .heading {
+        margin-bottom: 30px;
+      }
+
+      .main-title {
+        font-size: 48px;
+        color: #3c5a99;
+        margin: 0;
+      }
+
+      .slogan {
+        font-size: 24px;
+        color: #9ea3b0;
+        margin: 5px 0;
+      }
+
+      .donate-info-here {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+      }
+
+      .donate-img {
+        flex: 1;
+      }
+
+      .donate-img img {
+        max-width: 100%;
+        border-radius: 5px;
+      }
+
+      .donate-info {
+        flex: 1;
+        text-align: left;
+        padding: 0 20px;
+      }
+
+      .donate-info h2 {
+        font-size: 36px;
+        color: #3c5a99;
+        margin: 0;
+        line-height: 1.4;
+      }
+
+      .donate-info p {
+        font-size: 18px;
+        color: #6f7d96;
+        margin: 10px 0;
+        line-height: 1.6;
+      }
+
+      /* CSS for the sub-heading */
+      .sub-heading {
+        margin-top: 30px;
+      }
+
+      .one-liner {
+        font-size: 24px;
+        color: #ff5722;
+        font-weight: bold;
+        margin: 0;
+      }
+
+      section.donationform {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: #f1f1f199;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+      }
+
+      .donate-title {
+        text-align: center;
+        font-size: 30px;
+        color: #3f00ff;
+        margin-bottom: 20px;
+      }
+
+      form.donation-form {
+        text-align: left;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      .form-group label {
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 5px;
+      }
+
+      .form-group input[type="text"],
+      .form-group input[type="email"],
+      .form-group input[type="tel"],
+      .form-group textarea,
+      .form-group select {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #555;
+      }
+
+      .form-group textarea {
+        resize: vertical;
+      }
+
+      .form-group select {
+        height: 45px;
+      }
+
+      .form-group label input[type="checkbox"] {
+        margin-right: 5px;
+      }
+
+      .proceed-to-payment {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        background-color: #ff5722;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .proceed-to-payment:hover {
+        background-color: #e64a19;
+      }
+      .proceed-to-payment a{
+        text-decoration: none;
+      }
+
+      @media screen and (max-width: 767px) {
+        .donate-info-here {
+          flex-direction: column;
+          align-items: stretch;
+        }
+
+        .donate-img {
+          margin-bottom: 20px;
+        }
+
+        .donate-info {
+          padding: 0;
+        }
+
+        .donate-info h2 {
+          font-size: 24px;
+          line-height: 1.3;
+        }
+
+        .donate-info p {
+          font-size: 16px;
+          line-height: 1.5;
+        }
+
+        section.donationform {
+          padding: 20px;
+        }
+
+        .donate-title {
+          font-size: 24px;
+        }
+
+        .proceed-to-payment {
+          font-size: 14px;
+        }
+      }
+
+      /* For even smaller screens */
+      @media screen and (max-width: 480px) {
+        .main-title {
+          font-size: 36px;
+        }
+
+        .slogan {
+          font-size: 18px;
+        }
+
+        .donate-info h2 {
+          font-size: 20px;
+        }
+
+        .donate-info p {
+          font-size: 14px;
+        }
+
+        .donate-img img {
+          border-radius: 0;
+        }
+      }
+    

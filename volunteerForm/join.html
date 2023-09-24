@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>#FeedThemToo - Volunteer Application Form</title>
+    <link rel="shortcut icon" href="../images/paw.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="join.css">
+
+    
+  </head>
+  <body>
+    <section class="heading-volunteer">
+      <div class="heading">
+        <h1 class="main-title">Embrace Hope, Be a Volunteer</h1>
+        <p class="slogan">Join Hands For A Better World</p>
+      </div>
+      <div class="volunteer-info-here">
+        <div class="volunteer-img img-full">
+          <img src="../images/charity-volunteer-workers.png" alt="..." />
+        </div>
+        <div class="volunteer-info">
+          <h2>
+            Touch Lives, <br />
+            Share Unconditional Love
+          </h2>
+          <p>
+            In a world that often feels distant and disconnected, there is a
+            place where hearts are mended, and spirits are lifted - it's through
+            the act of volunteering. Your presence and compassion can transform
+            darkness into light, sadness into joy, and loneliness into
+            belonging. Every life you touch will remember the warmth of your
+            smile and the kindness in your soul.Through volunteering, you become
+            a guiding light in a world that craves connection and compassion.
+            Your simple acts of kindness leave an everlasting impact, creating a
+            ripple effect of love and unity that reaches far beyond the
+            boundaries of our existence. Embrace the power of volunteering, for
+            in doing so, you become an agent of positive change and a source of
+            hope for those in need.
+          </p>
+        </div>
+      </div>
+      <div class="sub-heading">
+        <p class="one-liner">
+          Join us in spreading love and hope. Apply to become a volunteer today!
+        </p>
+      </div>
+    </section>
+
+    <section id="join-us">
+      <div class="join-us-div">
+        <img src="./images/mission-logo.png" alt="" class="logo" />
+        <h1 class="join-us-heading">
+          #FeedThemToo - Volunteer Application Form
+        </h1>
+        <p class="msg">
+          Thank you for your interest in volunteering with #FeedThemToo, a
+          non-profit organization dedicated to making a difference in our
+          community. Kindly note that volunteering with us is on a voluntary
+          basis, and volunteers will not receive any financial compensation for
+          their services.
+        </p>
+        <div id="success-modal" style="display: none">
+          <h2>Thank You!</h2>
+          <p>Your application has been submitted successfully.</p>
+        </div>
+        <div class="form-join-us">
+          <form action="/submit" method="post">
+            <label for="name">Name: *</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Please enter your full name"
+              required
+            /><br /><br />
+
+            <label for="email">Email: *</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your Email ID"
+              required
+            /><br /><br />
+
+            <label for="phone">Phone Number: *</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone number"
+              required
+            /><br /><br />
+
+            <label for="address">Address: *</label>
+            <input
+              type="text"
+              id="address"
+              name="address"
+              placeholder="Enter your address"
+              required
+            /><br /><br />
+
+            <label for="city">City: *</label>
+            <input
+              type="text"
+              id="city"
+              name="city"
+              placeholder="Enter your city"
+              required
+            /><br /><br />
+
+            <label for="state">State/Province: *</label>
+            <input
+              type="text"
+              id="state"
+              name="state"
+              placeholder="Enter your state/Province"
+              required
+            /><br /><br />
+
+            <label for="country">Country: *</label>
+            <select id="country" name="country" required>
+              <option value="India" selected>India</option></select
+            ><br /><br />
+
+            <label for="postal">Postal Code: *</label>
+            <input
+              type="text"
+              id="postal"
+              name="postal"
+              placeholder="Enter your pin code"
+              required
+            /><br /><br />
+
+            <label for="gender">Gender: *</label>
+            <select id="gender" name="gender" required>
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option></select
+            ><br /><br />
+
+            <label for="dob">Date of Birth: *</label>
+            <input type="date" id="dob" name="dob" required /><br /><br />
+
+            <label for="role">Preferred Volunteer Role: *</label>
+            <select id="role" name="role" required>
+              <option value="">Select Role</option>
+              <option value="Event Organizer">Event Organizer</option>
+              <option value="Food Distribution">Food Distribution</option>
+              <option value="Fundraising">Fundraising</option>
+              <option value="Social Media Management">
+                Social Media Management
+              </option>
+              <option value="Mentorship">Mentorship</option>
+              <option value="Tutoring">Tutoring</option>
+              <option value="Administrative Support">
+                Administrative Support
+              </option>
+              <option value="Graphic Design">Graphic Design</option>
+              <option value="Web Development">Web Development</option>
+              <option value="Content Creation">Content Creation</option>
+              <option value="Data Entry">Data Entry</option></select
+            ><br /><br />
+
+            <label for="skills">Skills and Experience: *</label>
+            <textarea
+              id="skills"
+              name="skills"
+              placeholder="Please mention your skills and experience"
+              required
+            ></textarea
+            ><br /><br />
+
+            <label for="motivation"
+              >Why would you like to volunteer with #FeedThemToo? *</label
+            >
+            <textarea
+              id="motivation"
+              name="motivation"
+              placeholder="Write 200 words by your own"
+              required
+            ></textarea
+            ><br /><br />
+
+            <label for="languages"
+              >What languages do you speak fluently? *</label
+            >
+            <input
+              type="text"
+              id="languages"
+              name="languages"
+              placeholder="Mention the languages you can speak"
+              required
+            /><br /><br />
+
+            <label for="volunteeredBefore"
+              >Have you volunteered with any other organizations in the past?
+              *</label
+            >
+            <select id="volunteeredBefore" name="volunteeredBefore" required>
+              <option value="select">Select</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option></select
+            ><br /><br />
+            <div class="terms-and-conditions">
+              <input type="checkbox" id="terms" name="terms" required />
+              <label for="terms"
+                >I have read and agree to the
+                <a href="terms.html">Terms and Conditions</a>.</label
+              >
+            </div>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
