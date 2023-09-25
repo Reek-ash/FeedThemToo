@@ -1,8 +1,3 @@
-// Disable right-click inspect
-// document.addEventListener('contextmenu', function(event) {
-//     event.preventDefault();
-//   });
-
 const testimonials = document.querySelectorAll('.testimonials__block');
 
 testimonials.forEach((testimonial) => {
