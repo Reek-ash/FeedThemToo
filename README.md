@@ -52,10 +52,6 @@ The #FeedThemToo website has been built using the following technologies:
 2. Fill in the necessary information, including your name, email, and message.
 3. Click on the "Send Message" button to submit your message.
 
-## Contributing
-
-As this project is a personal final year project, contributions are not open to the public. However, feedback and suggestions for improvements are always welcome. Feel free to create an issue on the GitHub repository if you encounter any bugs or have any ideas for enhancements.
-
 ## License
 
 This project is the intellectual property of Reek Ash and is not licensed for use, distribution, or modification by anyone else. All rights reserved.
