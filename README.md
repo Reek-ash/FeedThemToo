@@ -10,7 +10,6 @@ Welcome to #FeedThemToo, an NGO website aimed at feeding stray animals and creat
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
