@@ -61,6 +61,5 @@ For any inquiries or further information, you can reach out to the developer:
 
 - Name: Reek Ash
 - Email: reekash2920@gmail.com
-- GitHub: https://github.com/Reek-ash
 
 Thank you for using #FeedThemToo and contributing to the well-being of stray animals! Together, we can make a difference!
