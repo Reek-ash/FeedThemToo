@@ -1,4 +1,4 @@
-# #FeedThemToo - NGO Website for Feeding Stray Animals
+# #[FeedThemToo](https://reek-ash.github.io/FeedThemToo/) - NGO Website for Feeding Stray Animals
 
 ## Introduction
 
@@ -10,7 +10,6 @@ Welcome to #FeedThemToo, an NGO website aimed at feeding stray animals and creat
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -62,6 +61,5 @@ For any inquiries or further information, you can reach out to the developer:
 
 - Name: Reek Ash
 - Email: reekash2920@gmail.com
-- GitHub: https://github.com/Reek-ash
 
 Thank you for using #FeedThemToo and contributing to the well-being of stray animals! Together, we can make a difference!
